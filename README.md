@@ -1,16 +1,19 @@
 # test_app
 
-A new Flutter project.
+Mobile App Exercise
 
-## Getting Started
+# Packages Use
+- flutter_native_splash: ^2.2.19
+- pull_to_refresh: ^2.0.0
+- chopper: ^6.1.1
+- provider: ^6.0.5
+- xml2json: ^5.3.6
+- url_launcher: ^6.1.10
 
-This project is a starting point for a Flutter application.
+# HTTP
+Uses chopper API service package in getting user data from https://jsonplaceholder.typicode.com/users.
 
-A few resources to get you started if this is your first Flutter project:
+# Reading assets files
+Uses rootBundle.loadString() function from flutter services.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
