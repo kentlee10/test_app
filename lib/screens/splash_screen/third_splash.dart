@@ -5,7 +5,7 @@ import 'package:test_app/screens/main/home_screen.dart';
 import 'package:test_app/widgets/test_button.dart';
 
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
-/* * * * * * * * * * * * * * * * * * * * * * * * * * * FEATURES NO. 1 C * * * * * * * * * * * * * * * * * * * * * /
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * FEATURES NO. 1 C * * * * * * * * * * * * * * * * * * * * */
 /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 class ThirdSplash extends StatefulWidget {
