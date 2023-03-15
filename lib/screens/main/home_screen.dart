@@ -87,6 +87,9 @@ class _HomeScreen extends State<HomeScreen> {
         ),
         body: TabBarView(
           children: [
+            /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+            /* * * * * * * * * * * * * * * * * * * * * * * * * * * FEATURES NO. A * * * * * * * * * * * * * * * * * * * * * */
+            /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
             UserBody(
                 refreshController: userRefreshController,
                 onRefresh: (){
@@ -94,6 +97,9 @@ class _HomeScreen extends State<HomeScreen> {
                 },
                 list: provider.userList,
             ),
+            /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+            /* * * * * * * * * * * * * * * * * * * * * * * * * * * FEATURES NO. B * * * * * * * * * * * * * * * * * * * * * */
+            /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
             WebsiteBody(
               refreshController: websiteRefreshController,
               onRefresh: (){
@@ -101,6 +107,9 @@ class _HomeScreen extends State<HomeScreen> {
               },
               list: provider.websiteList,
             ),
+            /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+            /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BONUS * * * * * * * * * * * * * * * * * * * * * * * */
+            /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
             CountryBody(
               refreshController: countryRefreshController,
               onRefresh: (){
