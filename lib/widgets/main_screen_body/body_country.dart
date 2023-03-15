@@ -3,6 +3,10 @@ import 'package:pull_to_refresh/pull_to_refresh.dart';
 import 'package:test_app/widgets/icon_text.dart';
 import '../../model/country.dart';
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * FEATURES NO. 2 B. II. * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 class CountryBody extends StatelessWidget {
 
   final RefreshController refreshController;
