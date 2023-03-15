@@ -17,7 +17,7 @@ Uses chopper API service package in getting user data from https://jsonplacehold
 Uses rootBundle.loadString() function from flutter services.
 
 # App Architecture
-Custom archetecture using Provider for state management.
+Custom archetecture
 - model(Directory for Data Objects class)
 - screens(Directory for flutter pages)
 - provider(Directory for providers)
