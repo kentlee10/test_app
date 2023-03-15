@@ -44,6 +44,9 @@ class MainProvider with ChangeNotifier {
   }
 
   setUserList() async {
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * FEATURES NO. 2 A. I. * * * * * * * * * * * * * * * * * * * */
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     Response response = await _dataRepository.getUserList();
     if(response.isSuccessful){
       _isError = false;
@@ -84,6 +87,9 @@ class MainProvider with ChangeNotifier {
   }
 
   getWebsiteList() async {
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * FEATURES NO. 2 B. I. * * * * * * * * * * * * * * * * * * * */
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
       String dataString = await rootBundle.loadString('assets/json/website.txt', cache: false);
       Map<String, dynamic> data = json.decode(dataString);
       List websiteData = data['data']['data'] as List;
@@ -93,10 +99,16 @@ class MainProvider with ChangeNotifier {
           _websiteList.add(Website.fromMap(website));
         }
       }
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BONUS * * * * * * * * * * * * * * * * * * * * * * * */
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
       _websiteList.sort((data, nextData) => (data.sequence ?? 0).compareTo(nextData.sequence ?? 0));
   }
 
   getCountryList() async {
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * BONUS * * * * * * * * * * * * * * * * * * * * * * * */
+    /* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
     final myTransformer = Xml2Json();
     String data = await rootBundle.loadString('assets/xml/country.xml', cache: false);
     myTransformer.parse(data);
