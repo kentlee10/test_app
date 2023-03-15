@@ -4,6 +4,10 @@ import 'package:flutter_native_splash/flutter_native_splash.dart';
 import 'package:test_app/screens/splash_screen/third_splash.dart';
 import 'package:test_app/widgets/test_button.dart';
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * FEATURES NO. 1 B * * * * * * * * * * * * * * * * * * * * * /
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+
 class SecondSplash extends StatefulWidget {
   const SecondSplash({super.key});
   static const routeName = "secondSplash";
