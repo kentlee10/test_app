@@ -6,6 +6,9 @@ import 'package:test_app/widgets/profile_logo.dart';
 import '../../model/user.dart';
 import '../../utilities/helpers.dart';
 
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * FEATURES NO. 2 A. II. * * * * * * * * * * * * * * * * * * * */
+/* * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * * */
 
 class UserBody extends StatelessWidget {
 
