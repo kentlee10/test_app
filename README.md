@@ -3,7 +3,7 @@
 Mobile App Exercise
 
 # Packages Use
-- flutter_native_splash: ^2.2.19
+- flutter_native_splash: ^2.2.19 - https://github.com/kentlee10/test_app/blob/main/flutter_native_splash.yaml
 - pull_to_refresh: ^2.0.0
 - chopper: ^6.1.1
 - provider: ^6.0.5
