@@ -1,0 +1,100 @@
+{
+   "data":{
+      "status_code":200,
+      "status_message":"LIST_APPS",
+      "data":[
+         {
+            "id":1,
+            "name":null,
+            "pwa_url":"https://hcx.com.ph/",
+            "pwa_html":null,
+            "icon":"https://hcx.com.ph/wp-content/uploads/2021/10/HCX_LOGO_HD-COLORED-smaller.png",
+            "sequence":1,
+            "status":{
+               "id":2,
+               "name":"published",
+               "created_at":"08-12-2021 06:24 pm",
+               "updated_at":"08-12-2021 06:24 pm"
+            },
+            "created_at":"07-29-2021 08:11 pm",
+            "updated_at":"02-09-2023 09:16 am"
+         },
+         {
+            "id":2,
+            "name":"Globe",
+            "pwa_url":"https://www.globe.com.ph/",
+            "pwa_html":null,
+            "icon":"https://www.globe.com.ph/content/dam/globe/brie/homepage/globe-logo.png",
+            "sequence":3,
+            "status":{
+               "id":2,
+               "name":"published",
+               "created_at":"08-12-2021 06:24 pm",
+               "updated_at":"08-12-2021 06:24 pm"
+            },
+            "created_at":"07-29-2021 08:11 pm",
+            "updated_at":"01-26-2023 08:17 pm"
+         },
+         {
+            "id":4,
+            "name":"HealthNow",
+            "pwa_url":"https://www.healthnow.ph/",
+            "pwa_html":null,
+            "icon":"https://www.healthnow.ph/img/logo.png",
+            "sequence":5,
+            "status":{
+               "id":2,
+               "name":"published",
+               "created_at":"08-12-2021 06:24 pm",
+               "updated_at":"08-12-2021 06:24 pm"
+            },
+            "created_at":"07-29-2021 08:11 pm",
+            "updated_at":"06-30-2022 11:36 pm"
+         },
+         {
+            "id":6,
+            "name":"BPI",
+            "pwa_url":"https://www.bpi.com.ph/",
+            "pwa_html":null,
+            "icon":"https://upload.wikimedia.org/wikipedia/en/thumb/c/c2/Bank_of_the_Philippine_Islands_logo.svg/1200px-Bank_of_the_Philippine_Islands_logo.svg.png",
+            "sequence":2,
+            "status":{
+               "id":2,
+               "name":"draft",
+               "created_at":"08-12-2021 06:24 pm",
+               "updated_at":"08-12-2021 06:24 pm"
+            },
+            "created_at":"06-30-2022 03:35 pm",
+            "updated_at":"02-09-2023 09:17 am"
+         },
+         {
+            "id":7,
+            "name":"Ayala",
+            "pwa_url":"https://ayala.com/",
+            "pwa_html":null,
+            "icon":"https://ayala.com//_next/static/images/ayala-logo-917c0f3fc1bc7394d0870d3231683ea4.png",
+            "sequence":6,
+            "status":{
+               "id":2,
+               "name":"published",
+               "created_at":"08-12-2021 06:24 pm",
+               "updated_at":"08-12-2021 06:24 pm"
+            },
+            "created_at":"07-20-2022 06:18 pm",
+            "updated_at":"07-21-2022 02:22 am"
+         }
+      ],
+      "pagination":{
+         "total_items":6,
+         "total_pages":1
+      }
+   },
+   "status":200,
+   "statusText":"OK",
+   "headers":{
+      "cache-control":"private, must-revalidate",
+      "content-type":"application/json",
+      "expires":"-1",
+      "pragma":"no-cache"
+   }
+}
